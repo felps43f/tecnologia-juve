@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Filmes Famosos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .video-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      width: 300px;
+    }
+    .video-thumbnail {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+    .video-info {
+      padding: 15px;
+    }
+    .video-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+    .video-description {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Catálogo de Filmes Famosos</h1>
+  <div class="catalogo">
+    <!-- Card do Filme 1 -->
+    <div class="video-card">
+      <img src="https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg" alt="Miniatura do Filme Titanic" class="video-thumbnail">
+      <div class="video-info">
+        <h2 class="video-title">Titanic (1997)</h2>
+        <p class="video-description">Um épico romance trágico entre Jack e Rose a bordo do infame navio Titanic.</p>
+      </div>
+    </div>
+
+    <!-- Card do Filme 2 -->
+    <div class="video-card">
+      <img src="https://m.media-amazon.com/images/I/71NI+LIZwLL._AC_SL1020_.jpg" alt="Miniatura do Filme O Senhor dos Anéis" class="video-thumbnail">
+      <div class="video-info">
+        <h2 class="video-title">O Senhor dos Anéis: A Sociedade do Anel (2001)</h2>
+        <p class="video-description">A jornada épica de Frodo para destruir o Um Anel e salvar a Terra Média.</p>
+      </div>
+    </div>
+
+    <!-- Card do Filme 3 -->
+    <div class="video-card">
+      <img src="https://m.media-amazon.com/images/I/71lQFn1zljL._AC_SL1200_.jpg" alt="Miniatura do Filme Star Wars" class="video-thumbnail">
+      <div class="video-info">
+        <h2 class="video-title">Star Wars: Episódio IV - Uma Nova Esperança (1977)</h2>
+        <p class="video-description">A icônica batalha entre o Império e os Rebeldes na galáxia de Star Wars.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
